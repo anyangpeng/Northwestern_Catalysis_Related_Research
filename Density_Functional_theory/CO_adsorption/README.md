@@ -4,7 +4,7 @@
 The goal of this calculation is to get familiar with the DFT code for computing surface adsorption properties.
 ### Method
 The adsorption energy of CO on Au can be calculated by the following equation
-$$E_{ad} = E_{Au*CO} - E_{Au} - E_{CO}$$
+E<sub>ad</sub> = E<sub>Au*CO</sub> - E<sub>Au</sub> - E<sub>CO</sub>
 
 A trilayer Au [111] slab was used as the surface with the bottom layer fixed. CO was allowed to approach the Au surface at three different sites, namely the bridge sight, the fcc site, and the hcp site. 
 
@@ -13,7 +13,7 @@ A trilayer Au [111] slab was used as the surface with the bottom layer fixed. CO
 During the calculation only the positions of CO molecule and the top two layers of Au slab were allowed to relax.
 
 ### Resutls
-After optimization,$$E_{CO} = -14.80682643 eV\text{ and }E_{Au} = -41.07678214 eV$$ 
+After optimization,E<sub>CO</sub> = -14.80682643 eV        E<sub>Au</sub> = -41.07678214 eV 
 
 The calculated adsorption energies are summarized in the following table:
 
