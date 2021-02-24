@@ -13,7 +13,7 @@ A trilayer Au [111] slab was used as the surface with the bottom layer fixed. CO
 During the calculation only the positions of CO molecule and the top two layers of Au slab were allowed to relax.
 
 ### Resutls
-After optimization,E<sub>CO</sub> = -14.80682643 eV        E<sub>Au</sub> = -41.07678214 eV 
+After optimization,E<sub>CO</sub> = -14.80682643 eV    and    E<sub>Au</sub> = -41.07678214 eV 
 
 The calculated adsorption energies are summarized in the following table:
 
@@ -27,6 +27,7 @@ The calculated adsorption energies are summarized in the following table:
 |     HCP      |      O       |    -0.1101 eV  |
 
 
-Apparently, the 
+Apparently, the bridge configuration with C approaching the Au surface is the most stable one. Using this configuration, the internal stretching frequency of CO was calculated to be 1890cm-1, which is quite different from literature values.
 
-
+Reference: The Journal of Physical Chemistry Letters 2019 10 (5), 1043-1047
+DOI: 10.1021/acs.jpclett.9b00069
