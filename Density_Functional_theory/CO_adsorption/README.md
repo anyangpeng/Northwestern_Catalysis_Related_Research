@@ -33,7 +33,10 @@ The calculated adsorption energies are summarized in the following table:
 \* Top configuration was calculated on a 4-layer Au slab, others were calcualted on a 3-layer Au slab.
 
 
-Apparently, the bridge configuration with C approaching the Au surface is the most stable one. Using this configuration, the internal stretching frequency of CO was calculated to be 1890cm<sup>-1</sup>, which is quite different from literature values. The internal stretching frequency for top configuration was calculated to be 2064 cm<sup>-1</sup>, also different from literature values.
+Apparently, the bridge configuration with C approaching the Au surface is the most stable one. Using this configuration, the internal stretching frequency of CO was calculated to be 1890cm<sup>-1</sup>, which is quite different from experimental values. The internal stretching frequency for top configuration was calculated to be 2064 cm<sup>-1</sup>, also different from experimental values.
+
+### Conclusion 
+The adsorption energy and CO internal stretching frequency were calculated using PBE functional, the resutls are within acceptable ranges compared to DFT calculated values using PBE in the literature. However, PBE functional is known to be problematic for this type of calculation. A better functional to use is RPBE.
 
 Reference: 
 - The Journal of Physical Chemistry Letters, 2019, 10 (5), 1043-1047. DOI: 10.1021/acs.jpclett.9b00069
