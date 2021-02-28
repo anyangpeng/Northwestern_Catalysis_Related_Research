@@ -13,21 +13,29 @@ A trilayer Au [111] slab was used as the surface with the bottom layer fixed. CO
 During the calculation only the positions of CO molecule and the top two layers of Au slab were allowed to relax.
 
 ### Resutls
-After optimization,E<sub>CO</sub> = -14.80682643 eV    and    E<sub>Au</sub> = -41.07678214 eV 
+After optimization,<br/>
+* E<sub>CO</sub> = -14.80682643 eV<br/>
+* E<sub>Au_3layer</sub> = -41.07678214 eV<br/>
+* E<sub>Au_4layer</sub> = -56.74706518 ev
 
 The calculated adsorption energies are summarized in the following table:
 
 
-| Binding Site | Binding Atom | Binding Energy |
+| Binding Site | Binding Atom | Binding Energy<sup>*</sup> |
 | ------------ | ------------ | -------------- |
 |    Bridge    |      C       |    -0.6903 eV  |
 |     FCC      |      C       |    -0.6737 eV  |
 |     HCP      |      C       |    -0.6199 eV  |
 |    Bridge    |      O       |    -0.1117 eV  |
 |     HCP      |      O       |    -0.1101 eV  |
+|     Top      |      C       |    -0.5202 eV  |
+
+\* Top configuration was calculated on a 4-layer Au slab, others were calcualted on a 3-layer Au slab.
 
 
-Apparently, the bridge configuration with C approaching the Au surface is the most stable one. Using this configuration, the internal stretching frequency of CO was calculated to be 1890cm-1, which is quite different from literature values.
+Apparently, the bridge configuration with C approaching the Au surface is the most stable one. Using this configuration, the internal stretching frequency of CO was calculated to be 1890cm<sup>-1</sup>, which is quite different from literature values. The internal stretching frequency for top configuration was calculated to be 2064 cm<sup>-1</sup>, also different from literature values.
 
-Reference: The Journal of Physical Chemistry Letters 2019 10 (5), 1043-1047
-DOI: 10.1021/acs.jpclett.9b00069
+Reference: 
+- The Journal of Physical Chemistry Letters, 2019, 10 (5), 1043-1047. DOI: 10.1021/acs.jpclett.9b00069
+- Surface Science, 2014, 627, 57-69. DOI: 10.1016/j.susc.2014.04.012.
+- Adsorption Science & Technology, 2013, 31 (9), 823-828. DOI: 10.1260/0263-6174.31.9.823
