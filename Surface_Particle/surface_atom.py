@@ -129,7 +129,7 @@ def button1():
     length = float(e4.get())
 
     nano = Particle(element, shape, radius=radius, length=length)
-    tk.Label(calc, fg='blue', text='\nThere are {} surface atoms, which accounts for {:.2f} percent of total atoms!\n'.format(
+    tk.Label(calc, fg='blue', text='\nThere are {} surface atoms, which account for {:.2f} percent of total atoms!\n'.format(
         math.floor(nano.surf_atoms()[0]), nano.surf_atoms()[1]), wraplength=750, justify=tk.CENTER).grid(row=6, column=0, columnspan=5)
 
 
