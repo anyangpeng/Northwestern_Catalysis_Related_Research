@@ -3,4 +3,4 @@ This script launches the following GUI. Given a metal symbol, a nanoparticle sha
 </br>
 </br>
 </br>
-<img width="1024" alt="image" src="https://user-images.githubusercontent.com/66216181/109451147-63f60680-7a12-11eb-9400-a468d9f5421d.png">
+<img width="1200" alt="image" src="https://user-images.githubusercontent.com/66216181/109452136-ae788280-7a14-11eb-888a-41a03b366957.png">
